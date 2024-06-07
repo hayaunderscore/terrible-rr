@@ -97,8 +97,6 @@ local function register(fontname, params)
 	fnt.sepxoffset = params.sepxoffset or 0
 	fnt.sepyoffset = params.sepyoffset or 0
 	
-	fnt.glyphs = {}
-	
 	-- done with everything
 	local n = table.maxn(strdraw.fonts)+1
 	strdraw.fonts[n] = fnt
